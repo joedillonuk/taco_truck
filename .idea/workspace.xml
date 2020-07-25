@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c4b1f6da-f0d1-4316-8a43-63015ef9b204" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1f87F6ihumUS0pM6ZD6Chu6naCo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="menu_items" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.BurgerTest">
+    <configuration name="BurgerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Taco_stand" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="menu_items.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="menu_items" />
+      <option name="MAIN_CLASS_NAME" value="menu_items.BurgerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SandwichTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Taco_stand" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="menu_items.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="menu_items" />
+      <option name="MAIN_CLASS_NAME" value="menu_items.SandwichTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TacoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Taco_stand" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="menu_items.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="menu_items" />
+      <option name="MAIN_CLASS_NAME" value="menu_items.TacoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BurgerTest" />
+        <item itemvalue="JUnit.SandwichTest" />
+        <item itemvalue="JUnit.TacoTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c4b1f6da-f0d1-4316-8a43-63015ef9b204" name="Default Changelist" comment="" />
+      <created>1595587758649</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595587758649</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="218" y="114" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595706483760">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state x="218" y="114" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.825@0.23.1440.825" timestamp="1595706483760" />
+    <state x="574" y="175" key="#com.intellij.ide.util.MemberChooser" timestamp="1595609478152">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state x="574" y="175" key="#com.intellij.ide.util.MemberChooser/0.23.1440.825@0.23.1440.825" timestamp="1595609478152" />
+    <state width="1314" height="200" key="GridCell.Tab.0.bottom" timestamp="1595709861597">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1314" height="200" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1595704572049" />
+    <state width="1314" height="200" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1595709861597" />
+    <state width="1314" height="200" key="GridCell.Tab.0.center" timestamp="1595709861597">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1314" height="200" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1595704572049" />
+    <state width="1314" height="200" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1595709861597" />
+    <state width="1314" height="200" key="GridCell.Tab.0.left" timestamp="1595709861596">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1314" height="200" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1595704572048" />
+    <state width="1314" height="200" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1595709861596" />
+    <state width="1314" height="200" key="GridCell.Tab.0.right" timestamp="1595709861597">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1314" height="200" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1595704572049" />
+    <state width="1314" height="200" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1595709861597" />
+    <state x="815" y="186" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1595607292675">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state x="815" y="186" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.825@0.23.1440.825" timestamp="1595607292675" />
+  </component>
+</project>
