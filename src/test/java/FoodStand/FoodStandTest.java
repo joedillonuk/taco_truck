@@ -125,4 +125,24 @@ public class FoodStandTest {
         assertEquals(24.5, foodStand.potentialProfit(), 0.2);
     }
 
+    @Test
+    public void canSellFood(){
+        foodStand.addToMenu(burger1);
+        foodStand.addToMenu(burger2);
+        foodStand.addToMenu(burger3);
+        foodStand.addToMenu(vegBurger);
+        foodStand.sellFood(burger2);
+        assertEquals(3, foodStand.getMenuItems().size());
+    }
+
+    @Test
+    public void sellingFoodIncreaseTill(){
+        foodStand.addToMenu(burger1);
+        foodStand.addToMenu(burger2);
+        foodStand.addToMenu(burger3);
+        foodStand.addToMenu(vegBurger);
+        foodStand.sellFood(burger2);
+        assertEquals(109, foodStand.getTill(), 0);
+    }
+
 }
