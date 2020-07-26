@@ -6,6 +6,7 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/FoodStand/FoodStand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FoodStand/FoodStand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/FoodStand/FoodStandTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FoodStand/FoodStandTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/FoodStand/FoodStand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FoodStand/FoodStand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/FoodStand/FoodStandTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/FoodStand/FoodStandTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,28 +144,28 @@
     </state>
     <state x="574" y="175" key="#com.intellij.ide.util.MemberChooser/0.23.1440.825@0.23.1440.825" timestamp="1595789992756" />
     <state x="574" y="175" key="#com.intellij.ide.util.MemberChooser/0.23.1440.826@0.23.1440.826" timestamp="1595782090731" />
-    <state width="1314" height="200" key="GridCell.Tab.0.bottom" timestamp="1595790166458">
+    <state width="1314" height="200" key="GridCell.Tab.0.bottom" timestamp="1595796609097">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
-    <state width="1314" height="200" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1595790166458" />
+    <state width="1314" height="200" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1595796609097" />
     <state width="1314" height="200" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1595786733611" />
     <state width="1314" height="200" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1595780393002" />
-    <state width="1314" height="200" key="GridCell.Tab.0.center" timestamp="1595790166457">
+    <state width="1314" height="200" key="GridCell.Tab.0.center" timestamp="1595796609095">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
-    <state width="1314" height="200" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1595790166457" />
+    <state width="1314" height="200" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1595796609095" />
     <state width="1314" height="200" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1595786733611" />
     <state width="1314" height="200" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1595780393001" />
-    <state width="1314" height="200" key="GridCell.Tab.0.left" timestamp="1595790166457">
+    <state width="1314" height="200" key="GridCell.Tab.0.left" timestamp="1595796609095">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
-    <state width="1314" height="200" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1595790166457" />
+    <state width="1314" height="200" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1595796609095" />
     <state width="1314" height="200" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1595786733610" />
     <state width="1314" height="200" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1595780393000" />
-    <state width="1314" height="200" key="GridCell.Tab.0.right" timestamp="1595790166458">
+    <state width="1314" height="200" key="GridCell.Tab.0.right" timestamp="1595796609096">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
-    <state width="1314" height="200" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1595790166458" />
+    <state width="1314" height="200" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1595796609096" />
     <state width="1314" height="200" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1595786733611" />
     <state width="1314" height="200" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1595780393001" />
     <state x="815" y="186" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1595785462721">

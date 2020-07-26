@@ -93,56 +93,92 @@ public class FoodStandTest {
 
     @Test
     public void canAddToMenu(){
-        foodStand.addToMenu(burger1);
+        foodStand.addToMenu(burger1, 10);
         assertEquals(1, foodStand.getMenuItems().size());
 
     }
 
     @Test
     public void canAddToMenu_Multiple(){
-        foodStand.addToMenu(burger1);
-        foodStand.addToMenu(burger2);
-        foodStand.addToMenu(burger3);
-        foodStand.addToMenu(vegBurger);
+        foodStand.addToMenu(burger1, 10);
+        foodStand.addToMenu(burger2, 10);
+        foodStand.addToMenu(burger3, 10);
+        foodStand.addToMenu(vegBurger, 10);
         assertEquals(4, foodStand.getMenuItems().size());
     }
 
-    @Test
-    public void canDisplayMenu(){
-        foodStand.addToMenu(burger1);
-        foodStand.addToMenu(burger2);
-        foodStand.addToMenu(burger3);
-        foodStand.addToMenu(vegBurger);
-        foodStand.displayMenu();
-    }
+//    @Test
+//    public void canDisplayMenu(){
+//        foodStand.addToMenu(burger1, 10);
+//        foodStand.addToMenu(burger2, 10);
+//        foodStand.addToMenu(burger3, 10);
+//        foodStand.addToMenu(vegBurger, 10);
+//        foodStand.displayMenu();
+//    }
 
     @Test
     public void canCalculatePotentialProfit(){
-        foodStand.addToMenu(burger1);
-        foodStand.addToMenu(burger2);
-        foodStand.addToMenu(burger3);
-        foodStand.addToMenu(vegBurger);
+        foodStand.addToMenu(burger1, 10);
+        foodStand.addToMenu(burger2, 10);
+        foodStand.addToMenu(burger3, 10);
+        foodStand.addToMenu(vegBurger, 10);
         assertEquals(24.5, foodStand.potentialProfit(), 0.2);
     }
 
-    @Test
-    public void canSellFood(){
-        foodStand.addToMenu(burger1);
-        foodStand.addToMenu(burger2);
-        foodStand.addToMenu(burger3);
-        foodStand.addToMenu(vegBurger);
-        foodStand.sellFood(burger2);
-        assertEquals(3, foodStand.getMenuItems().size());
-    }
+//    @Test // Changed sale to decreases value in hashmap rather than remove from array
+//    public void canSellFood(){
+//        foodStand.addToMenu(burger1, 10);
+//        foodStand.addToMenu(burger2, 10);
+//        foodStand.addToMenu(burger3, 10);
+//        foodStand.addToMenu(vegBurger, 10);
+//        foodStand.sellFood(burger2);
+//        assertEquals(3, foodStand.getMenuItems().size());
+//    }
 
     @Test
     public void sellingFoodIncreaseTill(){
-        foodStand.addToMenu(burger1);
-        foodStand.addToMenu(burger2);
-        foodStand.addToMenu(burger3);
-        foodStand.addToMenu(vegBurger);
+        foodStand.addToMenu(burger1, 10);
+        foodStand.addToMenu(burger2, 10);
+        foodStand.addToMenu(burger3, 10);
+        foodStand.addToMenu(vegBurger, 10);
         foodStand.sellFood(burger2);
         assertEquals(109, foodStand.getTill(), 0);
+    }
+
+//    @Test
+//    public void displayStock(){
+//        foodStand.addToMenu(burger1, 10);
+//
+//        foodStand.addToMenu(burger2, 10);
+//        foodStand.addToMenu(burger3, 10);
+//        foodStand.addToMenu(vegBurger, 10);
+//        foodStand.displayStockCount();
+//
+//    }
+
+//    @Test
+//    public void stockDecreasesUponSale(){
+//        foodStand.addToMenu(burger1, 10);
+//        foodStand.addToMenu(burger2, 10);
+//        foodStand.addToMenu(burger3, 10);
+//        foodStand.addToMenu(vegBurger, 10);
+//        foodStand.sellFood(burger2);
+//        foodStand.sellFood(burger2);
+//        foodStand.sellFood(burger3);
+//        foodStand.displayStockCount();
+//
+//    }
+
+    @Test
+    public void cannotSellIfNoStock(){
+        foodStand.addToMenu(burger1, 10);
+        foodStand.addToMenu(burger2, 1);
+        foodStand.addToMenu(burger3, 10);
+        foodStand.addToMenu(vegBurger, 10);
+        foodStand.sellFood(burger2);
+        foodStand.sellFood(burger2);
+        foodStand.sellFood(burger3);
+        foodStand.displayStockCount();
     }
 
 }
