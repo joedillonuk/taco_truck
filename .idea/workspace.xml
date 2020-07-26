@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4b1f6da-f0d1-4316-8a43-63015ef9b204" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/FoodStand/FoodStand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FoodStand/FoodStandTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ingredients/BreadType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ingredients/BreadType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ingredients/FillingType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ingredients/FillingType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ingredients/ToppingType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ingredients/ToppingType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menu_items/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menu_items/Food.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/menu_items/BurgerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/menu_items/BurgerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menu_items/Food.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/menu_items/Food.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FoodStand/FoodStand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FoodStand/FoodStand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/menu_items/BurgerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/menu_items/BurgerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,10 +18,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -48,6 +43,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="FoodStand" />
       <recent name="menu_items" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -65,6 +61,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="menu_items" />
       <option name="MAIN_CLASS_NAME" value="menu_items.BurgerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FoodStandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Taco_stand" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FoodStand.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="FoodStand" />
+      <option name="MAIN_CLASS_NAME" value="FoodStand.FoodStandTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -103,6 +114,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.BurgerTest" />
+        <item itemvalue="JUnit.FoodStandTest" />
         <item itemvalue="JUnit.SandwichTest" />
         <item itemvalue="JUnit.TacoTest" />
       </list>
@@ -126,38 +138,38 @@
       <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state x="218" y="114" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.825@0.23.1440.825" timestamp="1595706483760" />
-    <state x="574" y="175" key="#com.intellij.ide.util.MemberChooser" timestamp="1595782090731">
-      <screen x="0" y="23" width="1440" height="826" />
-    </state>
-    <state x="574" y="175" key="#com.intellij.ide.util.MemberChooser/0.23.1440.825@0.23.1440.825" timestamp="1595767180214" />
-    <state x="574" y="175" key="#com.intellij.ide.util.MemberChooser/0.23.1440.826@0.23.1440.826" timestamp="1595782090731" />
-    <state width="1314" height="200" key="GridCell.Tab.0.bottom" timestamp="1595784358949">
-      <screen x="0" y="23" width="1440" height="826" />
-    </state>
-    <state width="1314" height="200" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1595780723576" />
-    <state width="1314" height="200" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1595784358949" />
-    <state width="1314" height="200" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1595780393002" />
-    <state width="1314" height="200" key="GridCell.Tab.0.center" timestamp="1595784358948">
-      <screen x="0" y="23" width="1440" height="826" />
-    </state>
-    <state width="1314" height="200" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1595780723576" />
-    <state width="1314" height="200" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1595784358948" />
-    <state width="1314" height="200" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1595780393001" />
-    <state width="1314" height="200" key="GridCell.Tab.0.left" timestamp="1595784358948">
-      <screen x="0" y="23" width="1440" height="826" />
-    </state>
-    <state width="1314" height="200" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1595780723576" />
-    <state width="1314" height="200" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1595784358948" />
-    <state width="1314" height="200" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1595780393000" />
-    <state width="1314" height="200" key="GridCell.Tab.0.right" timestamp="1595784358949">
-      <screen x="0" y="23" width="1440" height="826" />
-    </state>
-    <state width="1314" height="200" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1595780723576" />
-    <state width="1314" height="200" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1595784358949" />
-    <state width="1314" height="200" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1595780393001" />
-    <state x="815" y="186" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1595607292675">
+    <state x="574" y="175" key="#com.intellij.ide.util.MemberChooser" timestamp="1595785073848">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
-    <state x="815" y="186" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.825@0.23.1440.825" timestamp="1595607292675" />
+    <state x="574" y="175" key="#com.intellij.ide.util.MemberChooser/0.23.1440.825@0.23.1440.825" timestamp="1595785073848" />
+    <state x="574" y="175" key="#com.intellij.ide.util.MemberChooser/0.23.1440.826@0.23.1440.826" timestamp="1595782090731" />
+    <state width="1314" height="200" key="GridCell.Tab.0.bottom" timestamp="1595786733611">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1314" height="200" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1595785016759" />
+    <state width="1314" height="200" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1595786733611" />
+    <state width="1314" height="200" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1595780393002" />
+    <state width="1314" height="200" key="GridCell.Tab.0.center" timestamp="1595786733611">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1314" height="200" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1595785016759" />
+    <state width="1314" height="200" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1595786733611" />
+    <state width="1314" height="200" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1595780393001" />
+    <state width="1314" height="200" key="GridCell.Tab.0.left" timestamp="1595786733610">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1314" height="200" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1595785016758" />
+    <state width="1314" height="200" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1595786733610" />
+    <state width="1314" height="200" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1595780393000" />
+    <state width="1314" height="200" key="GridCell.Tab.0.right" timestamp="1595786733611">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1314" height="200" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1595785016759" />
+    <state width="1314" height="200" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1595786733611" />
+    <state width="1314" height="200" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1595780393001" />
+    <state x="815" y="186" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1595785462721">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state x="815" y="186" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.825@0.23.1440.825" timestamp="1595785462721" />
   </component>
 </project>
