@@ -1,5 +1,6 @@
 package menu_items;
 
+import behaviours.IGetEaten;
 import ingredients.*;
 
 import java.lang.reflect.Array;
@@ -76,22 +77,11 @@ public abstract class Food {
 //        Class ingredientClass = ingredient.getClass();
     if(ingredient instanceof Bread & breadCount > 0){
         System.out.println("Sorry, only one bread type per order!");
-    }else{
+    } else{
        ingredients.add(ingredient);
        incrementIngredient(ingredient);}
     }
 
-    public int containsBread(){
-        int breadCount = 0;
-
-        for(Ingredient ingredient : this.ingredients){
-            if(ingredient instanceof Bread){
-                breadCount++;
-            }
-        }
-        return breadCount;
-
-    }
 
     public void incrementIngredient(Ingredient ingredient){
         if(ingredient instanceof Bread){breadCount++;}
@@ -100,5 +90,53 @@ public abstract class Food {
         if(ingredient instanceof Sauce){sauceCount++;}
     }
 
+    public int getBreadCount() {
+        return breadCount;
+    }
 
+    public int getFillingCount() {
+        return fillingCount;
+    }
+
+    public int getToppingCount() {
+        return toppingCount;
+    }
+
+    public int getSauceCount() {
+        return sauceCount;
+    }
+
+    public boolean isVegetarian(){
+        boolean vegetarian = true;
+        for(Ingredient ingredient : this.ingredients){
+            if(ingredient.getVegetarian() == false){
+                vegetarian = false;
+            }
+        }
+        return vegetarian;
+    }
+
+    public void listNonVegItems(){
+        if(this.isVegetarian()){
+            System.out.println("This item is vegetarian.");
+        }else {
+
+            ArrayList nonVegItems = new ArrayList<IGetEaten>();
+            System.out.println("This item contains the following non-vegetarian items:");
+            for (Ingredient ingredient : this.ingredients) {
+                if (ingredient.getVegetarian() == false) {
+                    nonVegItems.add(ingredient);
+                    System.out.println(ingredient.getName());
+                }
+            }
+        }
+    }
+
+    public int calculateCalories(){
+        int total = 0;
+        for(Ingredient ingredient : this.ingredients){
+            total += ingredient.getCalories();
+        }
+        return total;
+    }
 }

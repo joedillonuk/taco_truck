@@ -3,12 +3,12 @@ package ingredients;
 import behaviours.IGetEaten;
 
 public enum BreadType implements IGetEaten {
-    BUN("bun", 100, true),
-    FLOURTORTILLA("flour tortilla", 80, true),
-    CORNTORTILLA("corn tortilla", 50, true),
-    SUB("sub", 120, true),
+    BUN("bun", 150, true),
+    FLOURTORTILLA("flour tortilla", 138, true),
+    CORNTORTILLA("corn tortilla", 96, true),
+    SUB("sub", 320, true),
     BLOOMER("bloomer", 120, true),
-    CIABATTA("ciabatta", 150, true),
+    CIABATTA("ciabatta", 295, true),
     BUNLESS("bunless", 0, true);
 
     private final String name;

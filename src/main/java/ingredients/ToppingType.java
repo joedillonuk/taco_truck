@@ -8,7 +8,7 @@ public enum ToppingType implements IGetEaten, ISpicy {
     LETTUCE("lettuce", 0, true, 0),
     TOMATO("tomato", 10, true, 0),
     ONION("onion", 10, true, 0),
-    BACON("chipotle salsa", 10, false, 0),
+    BACON("bacon", 100, false, 0),
     MUSHROOM("mushroom", 20, true, 0),
     CHEESE("cheese", 50, true, 0),
     CHILIS("chilis", 20, true, 4000),

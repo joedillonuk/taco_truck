@@ -13,14 +13,18 @@ public class BurgerTest {
     private Topping topping;
     private Filling filling;
     private Sauce sauce;
+    private Filling vegFilling;
+    private Topping vegTopping;
 
     @Before
     public void before(){
         burger = new Burger("Beef burger");
         bread = new Bread(2, BreadType.BUN);
-        topping = new Topping(0.5, ToppingType.CHEESE);
+        topping = new Topping(0.5, ToppingType.BACON);
         filling = new Filling(1.2, FillingType.BEEF);
         sauce = new Sauce(0.2, SauceType.KETCHUP);
+        vegFilling = new Filling(0.5, FillingType.JACKFRUIT);
+        vegTopping = new Topping(0.5, ToppingType.AVOCADO);
         }
 
 
@@ -60,7 +64,7 @@ public class BurgerTest {
 
     @Test
     public void canCountBreadInstanceSingle(){
-        assertEquals(1, burger.containsBread());
+        assertEquals(1, burger.getBreadCount());
     }
 
 
@@ -69,10 +73,46 @@ public class BurgerTest {
         burger.addIngredient(bread);
         burger.addIngredient(bread);
         burger.addIngredient(bread);
-        assertEquals(1, burger.containsBread());
+        assertEquals(1, burger.getBreadCount());
 
     }
 
-    
+    @Test
+    public void canConfirmVegetarian_False(){
+        burger.addIngredient(filling);
+        burger.addIngredient(topping);
+        burger.addIngredient(sauce);
+        assertEquals(false, burger.isVegetarian());
+
+    }
+
+    @Test
+    public void canConfirmVegetarian_True(){
+        burger.addIngredient(vegFilling);
+        burger.addIngredient(vegTopping);
+        burger.addIngredient(sauce);
+        assertEquals(true, burger.isVegetarian());
+
+    }
+
+    @Test
+    public void canDisplayNonVegIngredients(){
+        burger.addIngredient(filling);
+        burger.addIngredient(topping);
+        burger.addIngredient(sauce);
+        burger.listNonVegItems();
+        assertEquals(false, burger.isVegetarian());
+    }
+
+    @Test
+    public void canCalculateCalories(){
+        burger.addIngredient(filling);
+        burger.addIngredient(topping);
+        burger.addIngredient(sauce);
+        assertEquals(770, burger.calculateCalories());
+    }
+
+
+
 
 }

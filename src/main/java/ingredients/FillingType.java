@@ -5,13 +5,13 @@ import behaviours.IGetEaten;
 public enum FillingType implements IGetEaten {
     BEEF("beef", 500, false),
     PORK("pork", 600, false),
-    CHICKEN("chicken", 400, false),
-    FISH("fish", 300, false),
-    JACKFRUIT("jackfruit", 400, true),
-    SEITAN("seitan", 400, true),
-    VEGGIEPATTY("veggie burger", 500, true),
-    CORONATIONCHICKEN("coronation chicken", 500, false),
-    TUNAMAYO("tuna mayonnaise", 400, false);
+    CHICKEN("chicken", 283, false),
+    FISH("fish", 250, false),
+    JACKFRUIT("jackfruit", 157, true),
+    SEITAN("seitan", 100, true),
+    VEGGIEPATTY("veggie burger", 300, true),
+    CORONATIONCHICKEN("coronation chicken", 300, false),
+    TUNAMAYO("tuna mayonnaise", 187, false);
 
     private final String name;
     private final int calories;
