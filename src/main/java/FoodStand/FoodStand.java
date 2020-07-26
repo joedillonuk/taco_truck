@@ -47,4 +47,14 @@ public class FoodStand {
     public void addToMenu(Food food){
         this.menuItems.add(food);
     }
+
+    public double potentialProfit(){
+        double costOfAll = 0;
+        double sellPriceOfAll = 0;
+        for(Food food : menuItems){
+            costOfAll += food.getCost();
+            sellPriceOfAll += food.getSellPrice();
+        }
+        return sellPriceOfAll - costOfAll;
+    }
 }

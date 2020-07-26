@@ -116,4 +116,13 @@ public class FoodStandTest {
         foodStand.displayMenu();
     }
 
+    @Test
+    public void canCalculatePotentialProfit(){
+        foodStand.addToMenu(burger1);
+        foodStand.addToMenu(burger2);
+        foodStand.addToMenu(burger3);
+        foodStand.addToMenu(vegBurger);
+        assertEquals(24.5, foodStand.potentialProfit(), 0.2);
+    }
+
 }
