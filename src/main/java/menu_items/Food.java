@@ -36,12 +36,17 @@ public abstract class Food {
 
     public double getCost() {
         double cost = 0;
+
+        for(Ingredient ingredient : this.ingredients){
+            cost += ingredient.getCost();
+        }
+
         return cost;
     }
 
 
     public double getSellPrice() {
-        double sellPrice = 0;
+        double sellPrice = (getCost()* 3);
         return sellPrice;
     }
 

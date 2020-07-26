@@ -4,6 +4,7 @@ import ingredients.Ingredient;
 import menu_items.Burger;
 import menu_items.Food;
 
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 
 public class FoodStand {
@@ -28,9 +29,12 @@ public class FoodStand {
     public void displayMenu(){
         System.out.println("");
         System.out.println("Menu:");
+        DecimalFormat df = new DecimalFormat("####0.00");
         for(Food food : menuItems){
             if(food instanceof Burger){
-                System.out.println(food.getName() + " " +food.calculateCalories() + " calories.");
+                System.out.println(food.getName());
+                System.out.println("£" + df.format(food.getSellPrice()) + " | " + food.calculateCalories() + " calories.");
+                System.out.println("");
                 for(Ingredient ingredient : food.getIngredients()){
                     System.out.println(ingredient.getName());
                 }

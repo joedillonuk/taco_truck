@@ -24,5 +24,8 @@ public abstract class Ingredient {
         return iGetEaten.getVegetarian();
     }
 
+    public double getCost(){
+        return this.cost;
+    }
 
 }
