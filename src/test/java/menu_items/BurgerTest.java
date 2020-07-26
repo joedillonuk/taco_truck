@@ -1,5 +1,6 @@
 package menu_items;
 
+import behaviours.ISpicy;
 import ingredients.*;
 import org.junit.Before;
 import org.junit.Test;
@@ -15,6 +16,7 @@ public class BurgerTest {
     private Sauce sauce;
     private Filling vegFilling;
     private Topping vegTopping;
+    private Sauce spicySauce;
 
     @Before
     public void before(){
@@ -25,6 +27,7 @@ public class BurgerTest {
         sauce = new Sauce(0.2, SauceType.KETCHUP);
         vegFilling = new Filling(0.5, FillingType.JACKFRUIT);
         vegTopping = new Topping(0.5, ToppingType.AVOCADO);
+        spicySauce = new Sauce(0.5, SauceType.NAGA);
         }
 
 
@@ -112,7 +115,17 @@ public class BurgerTest {
         assertEquals(770, burger.calculateCalories());
     }
 
+    @Test
+    public void canGetSpiceLevel(){
+        burger.addIngredient(filling);
+        burger.addIngredient(topping);
+        burger.addIngredient(spicySauce);
+        assertEquals(60000, burger.getSpiceLevel());
+    }
 
-
+//    @Test
+//    public void canGetIngredientSpiceLevel(){
+//        spicySauce.get
+//    }
 
 }

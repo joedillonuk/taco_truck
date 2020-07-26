@@ -1,6 +1,7 @@
 package ingredients;
 
 import behaviours.IGetEaten;
+import behaviours.ISpicy;
 
 public abstract class Ingredient {
 
@@ -27,5 +28,11 @@ public abstract class Ingredient {
     public double getCost(){
         return this.cost;
     }
+
+    public IGetEaten getIGetEaten(){
+        return this.iGetEaten;
+    }
+
+
 
 }

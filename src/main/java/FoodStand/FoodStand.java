@@ -99,4 +99,12 @@ public class FoodStand {
         foodStock.put(food, count - 1);
     }
 
+    public void increaseStock(Food food) {
+        int count = foodStock.get(food);
+        foodStock.put(food, count + 1);
+    }
+
+
+
+
 }

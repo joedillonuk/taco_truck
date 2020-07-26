@@ -1,6 +1,7 @@
 package menu_items;
 
 import behaviours.IGetEaten;
+import behaviours.ISpicy;
 import ingredients.*;
 
 import java.lang.reflect.Array;
@@ -42,6 +43,19 @@ public abstract class Food {
         }
 
         return cost;
+    }
+
+    public int getSpiceLevel(){
+        int spiceLevel = 0;
+
+        for(Ingredient ingredient : this.ingredients){
+            if(ingredient instanceof ISpicy){
+                if(((ISpicy) ingredient).getSpicy() > spiceLevel){
+                    spiceLevel = ((ISpicy) ingredient).getSpicy();
+                }
+            }
+        }
+        return spiceLevel;
     }
 
 
