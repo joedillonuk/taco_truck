@@ -58,6 +58,21 @@ public abstract class Food {
         return spiceLevel;
     }
 
+    public String getSpiciestIngredient(){
+        int spiceLevel = 0;
+        String spiciestIngredient = null;
+
+        for(Ingredient ingredient : this.ingredients){
+            if(ingredient instanceof ISpicy){
+                if(((ISpicy) ingredient).getSpicy() > spiceLevel){
+                    spiceLevel = ((ISpicy) ingredient).getSpicy();
+                    spiciestIngredient = ingredient.getName();
+                }
+            }
+        }
+        return spiciestIngredient;
+    }
+
 
     public double getSellPrice() {
         double sellPrice = (getCost()* 3);

@@ -181,4 +181,13 @@ public class FoodStandTest {
         foodStand.displayStockCount();
     }
 
+    @Test
+    public void canFindSpiciestItem(){
+        foodStand.addToMenu(burger1, 10);
+        foodStand.addToMenu(burger2, 1);
+        foodStand.addToMenu(burger3, 10);
+        foodStand.addToMenu(vegBurger, 10);
+        assertEquals("The spiciest item is I'm Aff It because its chipotle salsa has a scoville rating of: 1000", foodStand.spiciestItem());
+    }
+
 }

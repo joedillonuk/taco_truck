@@ -82,6 +82,22 @@ public class FoodStand {
         return sellPriceOfAll - costOfAll;
     }
 
+    public String spiciestItem(){
+        int maxSpiceLevel = 0;
+        String spicyItem = null;
+        String spicyIngredient = null;
+
+        for(Food food : menuItems){
+            if(food.getSpiceLevel() > maxSpiceLevel){
+                maxSpiceLevel = food.getSpiceLevel();
+                spicyItem = food.getName();
+                spicyIngredient = food.getSpiciestIngredient();
+            }
+        }
+        if(maxSpiceLevel > 0){return "The spiciest item is " + spicyItem + " because its " + spicyIngredient +  " has a scoville rating of: " + maxSpiceLevel;}
+        else{return "it's not spicy.";}
+    }
+
     public Food sellFood(Food food) {
         int count = foodStock.get(food);
         if(count > 0){
