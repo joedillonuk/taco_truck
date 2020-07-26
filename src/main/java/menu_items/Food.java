@@ -1,7 +1,6 @@
 package menu_items;
 
-import ingredients.FillingType;
-import ingredients.Ingredient;
+import ingredients.*;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
@@ -10,11 +9,19 @@ public abstract class Food {
 
     private String name;
     private ArrayList<Ingredient> ingredients;
+    private int breadCount;
+    private int fillingCount;
+    private int toppingCount;
+    private int sauceCount;
 
 
     public Food(String name) {
         this.name = name;
         ingredients = new ArrayList<Ingredient>();
+        breadCount = 0;
+        fillingCount = 0;
+        toppingCount = 0;
+        sauceCount = 0;
 
     }
 
@@ -49,19 +56,49 @@ public abstract class Food {
         return ingredients;
     }
 
-    public void addFilling(Ingredient filling){
-        ingredients.add(filling);
+//    public void addFilling(Ingredient filling){
+//        ingredients.add(filling);
+//    }
+//
+//    public void addBread(Ingredient bread){
+//        ingredients.add(bread);
+//    }
+//
+//    public void addTopping(Ingredient topping){
+//        ingredients.add(topping);
+//    }
+//
+//    public void addSauce(Ingredient sauce){
+//        ingredients.add(sauce);
+//    }
+
+    public void addIngredient(Ingredient ingredient){
+//        Class ingredientClass = ingredient.getClass();
+    if(ingredient instanceof Bread & breadCount > 0){
+        System.out.println("Sorry, only one bread type per order!");
+    }else{
+       ingredients.add(ingredient);
+       incrementIngredient(ingredient);}
     }
 
-    public void addBread(Ingredient bread){
-        ingredients.add(bread);
+    public int containsBread(){
+        int breadCount = 0;
+
+        for(Ingredient ingredient : this.ingredients){
+            if(ingredient instanceof Bread){
+                breadCount++;
+            }
+        }
+        return breadCount;
+
     }
 
-    public void addTopping(Ingredient topping){
-        ingredients.add(topping);
+    public void incrementIngredient(Ingredient ingredient){
+        if(ingredient instanceof Bread){breadCount++;}
+        if(ingredient instanceof Filling){fillingCount++;}
+        if(ingredient instanceof Topping){toppingCount++;}
+        if(ingredient instanceof Sauce){sauceCount++;}
     }
 
-    public void addSauce(Ingredient sauce){
-        ingredients.add(sauce);
-    }
+
 }
